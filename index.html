@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
 
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .links {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .links img {
+            width: 32px;
+            height: 32px;
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="URL_DA_SUA_IMAGEM" alt="Sua Foto de Perfil" class="profile-image">
+
+    <div class="links">
+        <a href="SEU_LINKEDIN_AQUI" target="_blank">
+            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn">
+        </a>
+        <a href="SEU_GITHUB_AQUI" target="_blank">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+        </a>
+    </div>
+
+    <p class="name">SEU NOME AQUI</p>
+
+</body>
+</html>
